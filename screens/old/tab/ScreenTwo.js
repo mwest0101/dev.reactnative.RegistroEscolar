@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, View, Text } from "react-native";
-import Boton from "../../components/boton";
+import Boton from "../../../components/boton";
 
 const ScreenTwoT = ({ navigation }) => {
   return (

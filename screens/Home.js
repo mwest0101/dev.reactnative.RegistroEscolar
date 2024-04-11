@@ -1,7 +1,7 @@
 import React from "react";
 import {ScrollView,View, StyleSheet, Text,  Image, TouchableOpacity } from "react-native";
 
-export default ScrHome = () => {
+export default Home = () => {
     return (
       <ScrollView>
         <View style={styles.container}>
@@ -19,7 +19,6 @@ export default ScrHome = () => {
                 />
                 <Text style={styles.info}>Alumnos</Text>
             </TouchableOpacity>
-
             <TouchableOpacity style={styles.menuBox}>
                 <Image
                     style={styles.icon}
@@ -27,9 +26,6 @@ export default ScrHome = () => {
                 />
                 <Text style={styles.info}>Escuelas</Text>
             </TouchableOpacity>
-
-            
-
             <TouchableOpacity style={styles.menuBox}>
                 <Image
                     style={styles.icon}
@@ -37,7 +33,6 @@ export default ScrHome = () => {
                 />
                 <Text style={styles.info}>Materias</Text>
             </TouchableOpacity>
-
             <TouchableOpacity style={styles.menuBox}>
                 <Image
                     style={styles.icon}
@@ -45,7 +40,6 @@ export default ScrHome = () => {
                 />
                 <Text style={styles.info}>T. Practicos</Text>
             </TouchableOpacity>
-
             <TouchableOpacity style={styles.menuBox}>
                 <Image
                     style={styles.icon}
@@ -53,7 +47,6 @@ export default ScrHome = () => {
                 />
                 <Text style={styles.info}>Notas</Text>
             </TouchableOpacity>
-
             <TouchableOpacity style={styles.menuBox}>
                 <Image
                     style={styles.icon}
@@ -61,7 +54,6 @@ export default ScrHome = () => {
                 />
                 <Text style={styles.info}>Año</Text>
             </TouchableOpacity>
-
             <TouchableOpacity style={styles.menuBox}>
                 <Image
                     style={styles.icon}
@@ -69,9 +61,6 @@ export default ScrHome = () => {
                 />
                 <Text style={styles.info}>Mi Perfil</Text>
             </TouchableOpacity>
-
-            
-
             <TouchableOpacity style={styles.menuBox}>
                 <Image
                     style={styles.icon}

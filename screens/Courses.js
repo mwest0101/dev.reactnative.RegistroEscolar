@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, FlatList, Image, TouchableOpacity, StyleSheet } from 'react-native';
 
-export default ScrCourses = () => {
+export default Courses = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [appointments, setAppointments] = useState([
     {

@@ -4,12 +4,10 @@ import { NavigationContainer } from "@react-navigation/native";
 // import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import Boton from "./components/boton";
-import HomeS from "./screens/stack/Home";
 
-import ScreenTwoT from "./screens/tab/ScreenTwo";
-import ScrHome from "./screens/ScrHome.js";
-import ScrCourses from "./screens/ScrCourses.js";
+import screen_example from "./screens/Example.js";
+import screen_home from "./screens/Home.js";
+import screen_courses from "./screens/Courses.js";
 
 import { useState } from "react";
 
@@ -25,9 +23,9 @@ export default function App() {
       <StatusBar style="auto" />
       <NavigationContainer>
         <Drawer.Navigator>
-          <Drawer.Screen name="Inicio" component={ScrHome} />
-          <Drawer.Screen name="Configuracion" component={ScrCourses} />
-          <Drawer.Screen name="About" component={ScreenTwoT} />
+          <Drawer.Screen name="Inicio" component={screen_home} />
+          <Drawer.Screen name="Configuracion" component={screen_courses} />
+          <Drawer.Screen name="About" component={screen_example} />
         </Drawer.Navigator>
 
         {/* <Tab.Navigator>
